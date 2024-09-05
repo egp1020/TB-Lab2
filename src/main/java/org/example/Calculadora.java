@@ -16,7 +16,7 @@ public class Calculadora {
 
 		var resultado = dividendo / divisor;
 
-		logger.info( "{} dividido entre {} es igual a ", dividendo, divisor, resultado);
+		logger.info( "{} dividido entre {} es igual a {}", dividendo, divisor, resultado);
 
 		return resultado;
 	}
